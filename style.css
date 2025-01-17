@@ -1,0 +1,298 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 195vh;
+}
+.navbar img {
+  height: 50px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navbar ul li {
+  margin-left: 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  background-color: #005b96;
+  color: #fff;
+  height: 87vh;
+}
+.hero-text {
+  max-width: 50%;
+}
+.hero-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.hero-text p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+.navbar img {
+  width: 200px;
+  height: 80px;
+}
+
+.hero img {
+  max-width: 40%;
+}
+.read-more {
+  background-color: #2b6cb0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+}
+.read-more:hover {
+  background-color: #2c5282;
+}
+
+/* tentang */
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 89vh;
+}
+.image-section {
+  flex: 1;
+  background-size: cover;
+}
+.text-section {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-section h1 {
+  font-size: 48px;
+  color: #999;
+  margin-top: -20;
+  margin-bottom: 20px;
+}
+.text-section p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* produk */
+.producs {
+  text-align: center;
+  padding: 100px;
+  background-color: #005b96;
+}
+
+.producs h1 {
+  color: #fff;
+  margin-bottom: 80px;
+}
+.produks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  margin: 20px 0;
+}
+.produk {
+  background-color: #fff;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.produk img {
+  width: 130%;
+  height: 130%;
+  border-radius: 10px;
+}
+
+/* layanan */
+.lutama {
+  margin-top: 60px;
+  padding-bottom: 70px;
+  background-color: #fff;
+  height: 80vh;
+}
+.layanan h1 {
+  color: #005b96;
+  text-align: center;
+  padding: 20px 0;
+}
+.pembungkus {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.card {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.card-content {
+  flex: 1;
+}
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a4e8a;
+  margin: 0 0 10px;
+}
+.card-description {
+  font-size: 16px;
+  color: #666;
+  margin: 0 0 20px;
+}
+.card-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1a4e8a;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* informasi */
+.info {
+  background-color: #005b96;
+  padding: 50px;
+}
+.info h1 {
+  color: #fff;
+  margin: 40px;
+  text-align: center;
+}
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 0;
+}
+.contact-info div {
+  text-align: center;
+  margin: 0 20px;
+}
+.contact-info i {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.contact-info p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.office-info {
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+.office-info div {
+  margin: 0 20px;
+  display: inline-block;
+  align-items: center;
+}
+.office-info i {
+  font-size: 40px;
+  color: #fff;
+  margin-right: 10px;
+}
+.office-info p {
+  margin: 0;
+  color: #fff;
+}
+.office-info p.title {
+  font-weight: bold;
+}
+.office-info .contact-info {
+  margin: 230px;
+}
+
+.elemen {
+  display: flex;
+}
+.map {
+  margin: 20px 0;
+}
+
+.copyraight {
+  background-color: #fff;
+  text-align: center;
+}
+
+/* responsiv */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-text,
+  .hero img {
+    max-width: 100%;
+  }
+  .hero img {
+    margin-top: 20px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .image-section,
+  .text-section {
+    flex: none;
+    height: 50vh;
+  }
+  .text-section {
+    padding: 20px;
+  }
+  .text-section h1 {
+    font-size: 36px;
+  }
+  .text-section p {
+    font-size: 16px;
+  }
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .card img {
+    margin: 0 auto 20px;
+  }
+}

@@ -11,11 +11,8 @@ body {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: fixed;
-  width: 203vh;
+  width: 100%;
   z-index: 100;
-}
-.navbar img {
-  height: 50px;
 }
 .navbar ul {
   list-style: none;
@@ -72,6 +69,7 @@ body {
   font-size: 1.2em;
   line-height: 1.6;
 }
+
 .hero .tiga-d {
   width: 90vh;
   height: 80vh;
@@ -98,7 +96,6 @@ body {
   height: 89vh;
 }
 .image-section {
-  background-size: cover;
   margin-left: -305px;
 }
 .text-section {
@@ -255,16 +252,36 @@ body {
 
 /* responsiv */
 @media (max-width: 768px) {
-  .hero {
+  body {
+    max-width: 768px;
+  }
+  .navbar img {
+    margin-left: 25%;
+  }
+  .navbar ul {
+    justify-content: center;
+  }
+  .hero .tiga-d {
+    width: 50vh;
+    height: 40vh;
+    z-index: 99;
+  }
+  .hero .hero-pem {
+    display: flex;
     flex-direction: column;
-    text-align: center;
   }
-  .hero-text,
-  .hero img {
+  .hero-text {
+    margin-left: 10%;
+  }
+  .hero-text h1 {
+    font-size: 2em;
+  }
+  .hero-text p {
+    font-size: 0;
+  }
+  .hero .tiga-d {
+    margin-top: 10%;
     max-width: 100%;
-  }
-  .hero img {
-    margin-top: 20px;
   }
   .container {
     flex-direction: column;
@@ -273,6 +290,10 @@ body {
   .text-section {
     flex: none;
     height: 50vh;
+    max-width: 100%;
+  }
+  .container .image-section {
+    margin-left: -22.5%;
   }
   .text-section {
     padding: 20px;
@@ -283,12 +304,18 @@ body {
   .text-section p {
     font-size: 16px;
   }
+  .producs {
+    margin-top: 15%;
+  }
   .card {
     flex-direction: column;
     text-align: center;
   }
   .card img {
     margin: 0 auto 20px;
+  }
+  .footer {
+    margin-top: 10%;
   }
   .footer .konten {
     flex-direction: column;

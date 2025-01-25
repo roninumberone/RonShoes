@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  max-width: 100%;
 }
 .navbar {
   display: flex;
@@ -145,7 +146,7 @@ body {
   margin-top: 60px;
   padding-bottom: 70px;
   background-color: #fff;
-  height: 70%;
+  /* height: 70%;  */
 }
 .layanan h1 {
   color: #005b96;
@@ -244,10 +245,12 @@ body {
   color: #fff;
 }
 .copyraight {
-  background-color: #005b96;
-  text-align: center;
+  border-top: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
   color: #fff;
-  padding-bottom: 2px;
+  max-height: 30px;
 }
 
 /* responsiv */

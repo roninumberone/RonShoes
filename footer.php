@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RonShoes</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -30,7 +31,7 @@
                         <i class="fab fa-linkedin"> </i>
                     </a>
                     <a href="https://www.instagram.com/romdhoni10_?igsh=MXZuajR4NGw5MW9oaw==">
-                        <i class="fab fa-instagram"> </i>
+                        <i class="fab fa-instagram"></i>
                     </a>
                     <a href="http://t.me/Roni_education">
                         <i class="fab fa-telegram-plane"> </i>

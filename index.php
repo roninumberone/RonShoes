@@ -70,35 +70,35 @@
                 <img src="./asset/1a.webp" class="card-img-top" alt="Hi Black" />
                 <div class="card-body">
                     <h5 class="card-title">Gazele Hi Black</h5>
-                    <a href="./Produk/p_satu.php" class="btn btn-primary">Selengkapnya</a>
+                    <!-- <a href="./Produk/p_satu.php" class="btn btn-primary">Selengkapnya</a> -->
                 </div>
             </div>
             <div class="card" style="width: 18rem">
                 <img src="./asset/2a.webp" class="card-img-top" alt="Low Black" />
                 <div class="card-body">
                     <h5 class="card-title">Gazele Low Black</h5>
-                    <a href="./Produk/p_dua.php" class="btn btn-primary">Selengkapnya</a>
+                    <!-- <a href="./Produk/p_dua.php" class="btn btn-primary">Selengkapnya</a> -->
                 </div>
             </div>
             <div class="card" style="width: 18rem">
                 <img src="./asset/3a.webp" class="card-img-top" alt="Hi Cream" />
                 <div class="card-body">
                     <h5 class="card-title">Gazele Hi Cream</h5>
-                    <a href="./Produk/p_tiga.php" class="btn btn-primary">Selengkapnya</a>
+                    <!-- <a href="./Produk/p_tiga.php" class="btn btn-primary">Selengkapnya</a> -->
                 </div>
             </div>
             <div class="card" style="width: 18rem">
                 <img src="./asset/4a.webp" class="card-img-top" alt="Velack" />
                 <div class="card-body">
                     <h5 class="card-title">Velocity Black</h5>
-                    <a href="./Produk/p_empat.php" class="btn btn-primary">Selengkapnya</a>
+                    <!-- <a href="./Produk/p_empat.php" class="btn btn-primary">Selengkapnya</a> -->
                 </div>
             </div>
             <div class="card" style="width: 18rem">
                 <img src="./asset/5a.webp" class="card-img-top" alt="Black White" />
                 <div class="card-body">
                     <h5 class="card-title">Gazele Low BW</h5>
-                    <a href="./Produk/p_lima.php" class="btn btn-primary">Selengkapnya</a>
+                    <!-- <a href="./Produk/p_lima.php" class="btn btn-primary">Selengkapnya</a> -->
                 </div>
             </div>
         </div>
@@ -144,7 +144,7 @@
         </div>
     </div>
 
-    <!-- informasi -->
+    <!-- footer -->
     <?php include './footer.php'; ?>
     <!-- script -->
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>

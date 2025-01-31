@@ -62,8 +62,7 @@
 
         </div>
         <div class="foto-p">
-            <img alt="A pair of black high-top sneakers with white laces and a gum sole." height="400"
-                src="../asset/3a.webp" width="600" />
+            <img alt="3." height="400" src="../asset/3a.webp" width="600" />
         </div>
         <div class="right-column">
             <p class="price">IDR 438,000</p>

@@ -16,10 +16,10 @@
                 <a href="./index.php"> Beranda </a>
             </li>
             <li>
-                <a href="#tentang"> Tentang </a>
+                <a href="./tentangkami.php"> Tentang </a>
             </li>
             <li>
-                <a href="#produk"> Produk </a>
+                <a href="./produk.php"> Produk </a>
             </li>
             <li>
                 <a href="#layanan1"> Layanan </a>

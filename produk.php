@@ -30,6 +30,9 @@
                 <div class="product-price">
                     IDR 438,000
                 </div>
+                <a href="./Produk/p_satu.php" class="button-buy">
+                    Beli
+                </a>
             </div>
             <div class="product">
                 <img alt="" height="300" src="./asset/2a.webp" width="400" />
@@ -39,6 +42,9 @@
                 <div class="product-price">
                     IDR 408,000
                 </div>
+                <a href="./Produk/p_dua.php" class="button-buy">
+                    Beli
+                </a>
             </div>
             <div class="product">
                 <img alt="" height="300" src="./asset/3a.webp" width="400" />
@@ -48,6 +54,9 @@
                 <div class="product-price">
                     IDR 438,000
                 </div>
+                <a href="./Produk/p_tiga.php" class="button-buy">
+                    Beli
+                </a>
             </div>
             <div class="product">
                 <img alt="" height="300" src="./asset/4a.webp" width="400" />
@@ -57,6 +66,9 @@
                 <div class="product-price">
                     IDR 798,000
                 </div>
+                <a href="./Produk/p_empat.php" class="button-buy">
+                    Beli
+                </a>
             </div>
             <div class="product">
                 <img alt="" height="300" src="./asset/5a.webp" width="400" />
@@ -66,6 +78,9 @@
                 <div class="product-price">
                     IDR 408,000
                 </div>
+                <a href="./Produk/p_lima.php" class="button-buy">
+                    Beli
+                </a>
             </div>
             <div class="product">
                 <img alt="" height="300" src="./asset/6a.webp" width="400" />
@@ -75,6 +90,9 @@
                 <div class="product-price">
                     IDR 598,000
                 </div>
+                <a href="./Produk/p_enam.php" class="button-buy">
+                    Beli
+                </a>
             </div>
             <div class="product">
                 <img alt="" height="300" src="./asset/7a.webp" width="400" />
@@ -84,6 +102,9 @@
                 <div class="product-price">
                     IDR 88,000
                 </div>
+                <a href="./Produk/p_tujuh.php" class="button-buy">
+                    Beli
+                </a>
             </div>
             <div class="product">
                 <img alt="" height="300" src="./asset/8a.webp" width="400" />
@@ -93,6 +114,9 @@
                 <div class="product-price">
                     IDR 58,000
                 </div>
+                <a href="./Produk/p_delpan.php" class="button-buy">
+                    Beli
+                </a>
             </div>
             <div class="product">
                 <img alt="" height="300" src="./asset/9a.webp" width="400" />
@@ -102,6 +126,9 @@
                 <div class="product-price">
                     IDR 38,000
                 </div>
+                <a href="./Produk/p_sembilan.php" class="button-buy">
+                    Beli
+                </a>
             </div>
         </div>
     </div>

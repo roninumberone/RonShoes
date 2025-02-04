@@ -2,17 +2,17 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   background-color: #fff;
 }
 
+/* pruduk Buy */
 .container {
   display: flex;
   flex-direction: row;
-  margin-top: 10px;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 10%;
+  max-width: 100%;
 }
 
 .left-column .icon-p a {
@@ -34,10 +34,11 @@ body {
   max-width: 600px;
   max-height: 600px;
   margin: 40px;
+  height: auto;
 }
 
 .left-column {
-  max-width: 650px;
+  max-width: 600px;
 }
 
 .right-column {
@@ -52,6 +53,7 @@ h1 {
 p {
   font-size: 14px;
   line-height: 1.6;
+  text-align: justify;
 }
 
 ul {
@@ -101,15 +103,12 @@ ul li {
   width: 100%;
 }
 
-.foto-p img {
-  max-width: 100%;
-  height: auto;
-}
-
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
     align-items: center;
+    margin-top: 600px;
+    margin-bottom: 500px;
   }
 
   .foto-p img {

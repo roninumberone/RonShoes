@@ -5,24 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RonShoes</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../style.css" />
 </head>
 
 <body>
     <nav class="navbar">
-        <img alt="RonShoes logo" src="./asset/logo.png" />
+        <img alt="RonShoes logo" src="../asset/logo.png" />
         <ul>
             <li>
-                <a href="./index.php"> Beranda </a>
+                <a href="../index.php"> Beranda </a>
             </li>
             <li>
-                <a href="./tentangkami.php"> Tentang </a>
+                <a href="../tentangkami.php"> Tentang </a>
             </li>
             <li>
-                <a href="./produk.php"> Produk </a>
+                <a href="../produk.php"> Produk </a>
             </li>
             <li>
-                <a href="#layanan1"> Layanan </a>
+                <a href="./toko.php"> Toko </a>
             </li>
             <li>
                 <a href="#informasi"> Informasi </a>

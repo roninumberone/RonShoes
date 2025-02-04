@@ -35,6 +35,8 @@ body {
   width: 200px;
   height: 80px;
 }
+
+/* beranda  */
 .hero {
   display: flex;
   align-items: center;
@@ -285,18 +287,107 @@ body {
   font-size: 14px;
   color: #000;
 }
-/* @media (max-width: 768px) {
-    .product {
-        flex: 1 1 45%;
-        max-width: 45%;
-    }
+
+.button-buy {
+  appearance: button;
+  background-color: #1899d6;
+  border: solid transparent;
+  border-radius: 11px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 19px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin: 10px;
+  padding: 10px 30px;
+  text-decoration: none;
 }
-@media (max-width: 480px) {
-    .product {
-        flex: 1 1 100%;
-        max-width: 100%;
-    }
-} */
+
+.button-buy:after {
+  background-clip: padding-box;
+  background-color: #005b96;
+  border: solid transparent;
+  border-radius: 11px;
+  border-width: 0 2px 4px 0;
+  bottom: -5px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-buy:hover:not(:disabled) {
+  filter: brightness(1.5);
+}
+
+/* file toko */
+.container-toko {
+  padding: 50px 20px;
+  margin-top: 100px;
+}
+.container-toko h1 {
+  font-size: 36px;
+  color: #333333;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.container-toko p {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.marketplace-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+.marketplace-logos img {
+  max-height: 100px;
+}
+
+.container-toko .toko-offline h1 {
+  font-size: 36px;
+  color: #333333;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.container-toko .toko-offline p {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.detail-toko-of {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  padding: 10px;
+}
 
 /* footer */
 .footer {
@@ -304,6 +395,7 @@ body {
   color: white;
   padding: 20px 0;
   text-align: center;
+  bottom: 0;
 }
 .footer h1 {
   color: #fff;
@@ -423,6 +515,13 @@ body {
   }
   .card img {
     margin: 0 auto 20px;
+  }
+
+  .detail-toko-of {
+    max-width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
   }
   .footer {
     margin-top: 10%;

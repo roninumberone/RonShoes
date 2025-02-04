@@ -108,35 +108,36 @@
     <!-- layanan -->
     <div class="lutama">
         <div class="layanan">
-            <h1>LAYANAN</h1>
+            <h1>TOKO OFFLINE</h1>
         </div>
-        <div class="pembungkus">
+        <div class="detail-toko-of">
             <div class="card">
                 <div class="card-content">
-                    <div class="card-title">Clean Shoes</div>
+                    <div class="card-title">JAWA BARAT</div>
                     <div class="card-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                        eius laborum itaque placeat aspernatur totam adipisci delectus id
-                        doloremque in, dolores perferendis. Amet et neque, vitae ab earum
-                        animi facere.
+                        Jl.Siliwangi No 70 Bogor Selatan Lawanggintung Bogor Jawa Barat 16134, Jawa Barat, 16134
+                        <br> Senin - Sabtu
+                        <br> 09:00 - 21:00 WIB
+                        <br> 6281120027043
                     </div>
                     <a class="card-button" href="#">
-                        Detail
+                        Lihat Lokasi
                         <i class="fas fa-arrow-right"> </i>
                     </a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-content">
-                    <div class="card-title">Kelas Program RonShoes</div>
+                    <div class="card-title">SUMATERA</div>
                     <div class="card-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
-                        porro nulla voluptatum odio ullam commodi perspiciatis
-                        voluptatibus in. Ex eligendi dolore rerum reprehenderit quo ut ad
-                        eum voluptates quia adipisci?
+                        Jl. Let. Jend. Suprapto No 361 Pd. Hulu Pasar Gambir Tebing Tinggi Sumatera Utara 20632,
+                        Sumatera Utara, 20628
+                        <br> Senin - Sabtu
+                        <br> 09:00 - 21:00 WIB
+                        <br> 6281120008337
                     </div>
                     <a class="card-button" href="#">
-                        Detail
+                        lihat Lokasi
                         <i class="fas fa-arrow-right"> </i>
                     </a>
                 </div>

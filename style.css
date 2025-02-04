@@ -36,6 +36,12 @@ body {
   height: 80px;
 }
 
+.navbar .akun i {
+  color: #000;
+  cursor: pointer;
+  font-size: 35px;
+}
+
 /* beranda  */
 .hero {
   display: flex;

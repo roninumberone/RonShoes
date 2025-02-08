@@ -17,30 +17,46 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <a href="../index.php">
-            <img alt="RonShoes logo" src="../asset/logo.png" />
-        </a>
-        <ul>
-            <li>
-                <a href="../index.php"> Beranda </a>
-            </li>
-            <li>
-                <a href="../tentangkami.php"> Tentang </a>
-            </li>
-            <li>
-                <a href="../produk.php"> Produk </a>
-            </li>
-            <li>
-                <a href="../toko.php"> Toko </a>
-            </li>
-        </ul>
-        <div class="akun">
-            <a href="../crud/signin.php">
-                <i class="bi bi-person-circle"></i>
+    <nav>
+        <div class="navbar">
+            <a href="../index.php">
+                <img alt="RonShoes logo" src="../asset/logo.png" />
             </a>
+            <div id="menu-icon-nav" class="menu-icon-nav">
+                <i class="bi bi-list"></i>
+            </div>
+            <ul id="menu-list" class="hidden">
+                <li>
+                    <a href="../index.php"> Beranda </a>
+                </li>
+                <li>
+                    <a href="../tentangkami.php"> Tentang Kami </a>
+                </li>
+                <li>
+                    <a href="../produk.php"> Produk</a>
+                </li>
+                <li>
+                    <a href="../toko.php"> Toko Kami</a>
+                </li>
+                <li>
+                    <div class="akun">
+                        <a href="../crud/signin.php">
+                            <i class="bi bi-person-circle"></i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+
         </div>
     </nav>
+    <script>
+    const menuIcon = document.getElementById("menu-icon-nav");
+    const menulist = document.getElementById("menu-list");
+    menuIcon.addEventListener("click", () => {
+        menulist.classList.toggle("hidden");
+    });
+    </script>
 </body>
 
 </html>

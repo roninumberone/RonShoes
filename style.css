@@ -36,10 +36,16 @@ body {
   height: 80px;
 }
 
-.navbar .akun i {
+.akun i {
   color: #000;
   cursor: pointer;
   font-size: 35px;
+  margin: 0 20px;
+}
+
+.menu-icon-nav {
+  font-size: 30px;
+  display: none;
 }
 
 /* beranda  */
@@ -459,12 +465,31 @@ body {
   body {
     max-width: 768px;
   }
-  .navbar img {
-    margin-left: 25%;
+  .navbar {
+    flex-wrap: wrap;
   }
-  .navbar ul {
+
+  .navbar ul,
+  .akun {
+    flex-direction: column;
+    height: 30%;
+    width: 100%;
+    margin: 10px;
+    align-items: center;
     justify-content: center;
   }
+  .navbar ul li {
+    margin: 10px;
+  }
+
+  .navbar ul.hidden {
+    display: none;
+  }
+
+  .menu-icon-nav {
+    display: contents;
+  }
+
   .hero .tiga-d {
     width: 50vh;
     height: 40vh;

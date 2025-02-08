@@ -114,7 +114,7 @@
                 <div class="product-price">
                     IDR 58,000
                 </div>
-                <a href="./Produk/p_delpan.php" class="button-buy">
+                <a href="./Produk/p_delapan.php" class="button-buy">
                     Beli
                 </a>
             </div>

@@ -66,39 +66,39 @@
     <div class="producs" id="produk">
         <h1>PRODUK</h1>
         <div class="produk-card">
-            <div class="card" style="width: 18rem">
+            <div class="card-index" style="width: 18rem">
                 <img src="./asset/1a.webp" class="card-img-top" alt="Hi Black" />
                 <div class="card-body">
                     <h5 class="card-title">Gazele Hi Black</h5>
-                    <!-- <a href="./Produk/p_satu.php" class="btn btn-primary">Selengkapnya</a> -->
+
                 </div>
             </div>
-            <div class="card" style="width: 18rem">
+            <div class="card-index" style="width: 18rem">
                 <img src="./asset/2a.webp" class="card-img-top" alt="Low Black" />
                 <div class="card-body">
                     <h5 class="card-title">Gazele Low Black</h5>
-                    <!-- <a href="./Produk/p_dua.php" class="btn btn-primary">Selengkapnya</a> -->
+
                 </div>
             </div>
-            <div class="card" style="width: 18rem">
+            <div class="card-index" style="width: 18rem">
                 <img src="./asset/3a.webp" class="card-img-top" alt="Hi Cream" />
                 <div class="card-body">
                     <h5 class="card-title">Gazele Hi Cream</h5>
-                    <!-- <a href="./Produk/p_tiga.php" class="btn btn-primary">Selengkapnya</a> -->
+
                 </div>
             </div>
-            <div class="card" style="width: 18rem">
+            <div class="card-index" style="width: 18rem">
                 <img src="./asset/4a.webp" class="card-img-top" alt="Velack" />
                 <div class="card-body">
                     <h5 class="card-title">Velocity Black</h5>
-                    <!-- <a href="./Produk/p_empat.php" class="btn btn-primary">Selengkapnya</a> -->
+
                 </div>
             </div>
-            <div class="card" style="width: 18rem">
+            <div class="card-index" style="width: 18rem">
                 <img src="./asset/5a.webp" class="card-img-top" alt="Black White" />
                 <div class="card-body">
                     <h5 class="card-title">Gazele Low BW</h5>
-                    <!-- <a href="./Produk/p_lima.php" class="btn btn-primary">Selengkapnya</a> -->
+
                 </div>
             </div>
         </div>
@@ -115,12 +115,13 @@
                 <div class="card-content">
                     <div class="card-title">JAWA BARAT</div>
                     <div class="card-description">
-                        Jl.Siliwangi No 70 Bogor Selatan Lawanggintung Bogor Jawa Barat 16134, Jawa Barat, 16134
-                        <br> Senin - Sabtu
-                        <br> 09:00 - 21:00 WIB
-                        <br> 6281120027043
+                        <i class="bi bi-geo-alt-fill"></i> Jl.Siliwangi No 70 Bogor Selatan Lawanggintung Bogor Jawa
+                        Barat 16134, Jawa Barat, 16134
+                        <br> <i class="bi bi-calendar-check-fill"></i> Senin - Sabtu
+                        <br> <i class="bi bi-alarm-fill"></i> 09:00 - 21:00 WIB
+                        <br> <i class="bi bi-telephone-fill"></i> 6281120027043
                     </div>
-                    <a class="card-button" href="#">
+                    <a class="card-button" href="https://maps.app.goo.gl/8tkBoN15s5dXk4nKA">
                         Lihat Lokasi
                         <i class="fas fa-arrow-right"> </i>
                     </a>
@@ -130,13 +131,14 @@
                 <div class="card-content">
                     <div class="card-title">SUMATERA</div>
                     <div class="card-description">
-                        Jl. Let. Jend. Suprapto No 361 Pd. Hulu Pasar Gambir Tebing Tinggi Sumatera Utara 20632,
+                        <i class="bi bi-geo-alt-fill"></i> Jl. Let. Jend. Suprapto No 361 Pd. Hulu Pasar Gambir
+                        Tebing Tinggi Sumatera Utara 20632,
                         Sumatera Utara, 20628
-                        <br> Senin - Sabtu
-                        <br> 09:00 - 21:00 WIB
-                        <br> 6281120008337
+                        <br><i class="bi bi-calendar-check-fill"></i> Senin - Sabtu
+                        <br> <i class="bi bi-alarm-fill"></i> 09:00 - 21:00 WIB
+                        <br><i class="bi bi-telephone-fill"></i> 6281120008337
                     </div>
-                    <a class="card-button" href="#">
+                    <a class="card-button" href="https://maps.app.goo.gl/AdVVq5D4BfowgKjH8">
                         lihat Lokasi
                         <i class="fas fa-arrow-right"> </i>
                     </a>

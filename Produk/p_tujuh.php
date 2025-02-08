@@ -21,42 +21,18 @@
     <?php include_once '../navbar.php'; ?>
 
 
-    <div class="container">
+    <div class="container" style="max-height: 500px;">
         <div class="left-column">
-            <h1>Gazelle Hi Black</h1>
+            <h1>Socks Low</h1>
             <p>
-                Mengambil inspirasi dari tahun 1950-an, Gazelle Hi mengambil siluet ikonik dan menanamkannya dengan
-                sentuhan RonShoes® yang berbeda.
+                Low Socks provides comfort and protection while letting your shoes take the spotlight.
             </p>
             <p>Spesifikasi :</p>
             <ul>
-                <li>• Hi-cut profile</li>
-                <li>• Canvas upper</li>
-                <li>• Canvas lining</li>
-                <li>• PVC side logo</li>
-                <li>• PVC heel tab</li>
-                <li>• Silver eyelets</li>
-                <li>• Polyester shoelaces</li>
-                <li>• Custom woven label</li>
-                <li>• Rubber foxing</li>
-                <li>• Rubber outsole</li>
-                <li>• Vulcanised construction</li>
+                <li>• Low-cut profile</li>
+                <li>• Cotton material</li>
+                <li>• Knitted logo</li>
                 <li>• Made in Indonesia</li>
-            </ul>
-            <p>Ukuran :</p>
-            <ul>
-                <li>• US 4 / UK 3 / EUR 34 / CM 22.5</li>
-                <li>• US 4.5 / UK 3.5 / EUR 35 / CM 23.5</li>
-                <li>• US 5 / UK 4 / EUR 36 / CM 24</li>
-                <li>• US 5.5 / UK 4.5 / EUR 37 / CM 24.5</li>
-                <li>• US 6.5 / UK 5.5 / EUR 38 / CM 25</li>
-                <li>• US 7 / UK 6 / EUR 39 / CM 26</li>
-                <li>• US 8 / UK 7 / EUR 40 / CM 26.5</li>
-                <li>• US 8.5 / UK 7.5 / EUR 41 / CM 27</li>
-                <li>• US 9.5 / UK 8.5 / EUR 42 / CM 27.5</li>
-                <li>• US 10 / UK 9 / EUR 43 / CM 28.5</li>
-                <li>• US 10.5 / UK 9.5 / EUR 44 / CM 29</li>
-                <li>• US 11 / UK 10.5 / EUR 45 / CM 29.5</li>
             </ul>
             <p>Catatan :</p>
             <p>
@@ -68,23 +44,21 @@
 
         </div>
         <div class="foto-p">
-            <img alt="." height="400" src="../asset/1a.webp" width="600" />
+            <img alt="." height="400" src="../asset/7a.webp" width="600" />
         </div>
         <div class="right-column">
-            <p class="price">IDR 438,000</p>
+            <p class="price">IDR 88,000</p>
             <p>SIZE:</p>
             <div class="size-buttons">
-                <button>35</button>
-                <button>36</button>
-                <button>37</button>
-                <button>38</button>
-                <button>39</button>
-                <button>40</button>
-                <button>41</button>
-                <button>42</button>
-                <button>43</button>
-                <button>44</button>
-                <button>45</button>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+            </div>
+            <p>Warna:</p>
+            <div class="size-buttons">
+                <button>Black</button>
+                <button>White</button>
             </div>
             <button class="bayar">Bayar</button>
         </div>

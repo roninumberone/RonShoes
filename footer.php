@@ -36,7 +36,7 @@
                     <a href="http://t.me/Roni_education">
                         <i class="fab fa-telegram-plane"> </i>
                     </a>
-                    <a href="https://github.com/roninumberone">
+                    <a href="https://www.tiktok.com/@romdhoni_s.kon">
                         <i class="fab fa-tiktok"> </i>
                     </a>
                 </div>

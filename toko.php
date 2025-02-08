@@ -28,13 +28,27 @@
             Pilih Official Store kami di bawah ini
         </p>
         <div class="marketplace-logos">
-            <img alt="WhatsApp logo" height="100" src="./asset/wa.png" width="210" />
-            <img alt="Shopee logo" height="100" src="./asset/shopee.png" width=200" />
-            <img alt="TikTok Shop logo" height="100" src="./asset/tiktok.png" width="220" />
-            <img alt="Tokopedia logo" height="100" src="./asset/tokopedia.png" width="210" />
-            <img alt="Lazada logo" height="100" src="./asset/lazada.png" width="200" />
-            <img alt="Blibli logo" height="100" src="./asset/blibli.png" width="200" />
-            <img alt="Bukalapak logo" height="100" src="./asset/bukalapak.png" width="200" />
+            <a href="https://api.whatsapp.com/send/?phone=62881023664913&text&type=phone_number&app_absent=0">
+                <img alt="WhatsApp logo" height="100" src="./asset/wa.png" width="210" />
+            </a>
+            <a href="https://shopee.co.id/">
+                <img alt="Shopee logo" height="100" src="./asset/shopee.png" width=200" />
+            </a>
+            <a href="https://seller-id.tokopedia.com/">
+                <img alt="TikTok Shop logo" height="100" src="./asset/tiktok.png" width="220" />
+            </a>
+            <a href="https://www.tokopedia.com/">
+                <img alt="Tokopedia logo" height="100" src="./asset/tokopedia.png" width="210" />
+            </a>
+            <a href="https://www.lazada.co.id/">
+                <img alt="Lazada logo" height="100" src="./asset/lazada.png" width="200" />
+            </a>
+            <a href="https://www.blibli.com/">
+                <img alt="Blibli logo" height="100" src="./asset/blibli.png" width="200" />
+            </a>
+            <a href="https://www.bukalapak.com/">
+                <img alt="Bukalapak logo" height="100" src="./asset/bukalapak.png" width="200" />
+            </a>
         </div>
         <div class="toko-offline">
             <h1>
@@ -48,12 +62,13 @@
                     <div class="card-content">
                         <div class="card-title">JAWA BARAT</div>
                         <div class="card-description">
-                            Jl.Siliwangi No 70 Bogor Selatan Lawanggintung Bogor Jawa Barat 16134, Jawa Barat, 16134
-                            <br> Senin - Sabtu
-                            <br> 09:00 - 21:00 WIB
-                            <br> 6281120027043
+                            <i class="bi bi-geo-alt-fill"></i> Jl.Siliwangi No 70 Bogor Selatan Lawanggintung Bogor Jawa
+                            Barat 16134, Jawa Barat, 16134
+                            <br> <i class="bi bi-calendar-check-fill"></i> Senin - Sabtu
+                            <br> <i class="bi bi-alarm-fill"></i> 09:00 - 21:00 WIB
+                            <br> <i class="bi bi-telephone-fill"></i> 6281120027043
                         </div>
-                        <a class="card-button" href="#">
+                        <a class="card-button" href="https://maps.app.goo.gl/8tkBoN15s5dXk4nKA">
                             Lihat Lokasi
                             <i class="fas fa-arrow-right"> </i>
                         </a>
@@ -63,13 +78,14 @@
                     <div class="card-content">
                         <div class="card-title">SUMATERA</div>
                         <div class="card-description">
-                            Jl. Let. Jend. Suprapto No 361 Pd. Hulu Pasar Gambir Tebing Tinggi Sumatera Utara 20632,
+                            <i class="bi bi-geo-alt-fill"></i> Jl. Let. Jend. Suprapto No 361 Pd. Hulu Pasar Gambir
+                            Tebing Tinggi Sumatera Utara 20632,
                             Sumatera Utara, 20628
-                            <br> Senin - Sabtu
-                            <br> 09:00 - 21:00 WIB
-                            <br> 6281120008337
+                            <br><i class="bi bi-calendar-check-fill"></i> Senin - Sabtu
+                            <br> <i class="bi bi-alarm-fill"></i> 09:00 - 21:00 WIB
+                            <br><i class="bi bi-telephone-fill"></i> 6281120008337
                         </div>
-                        <a class="card-button" href="#">
+                        <a class="card-button" href="https://maps.app.goo.gl/AdVVq5D4BfowgKjH8">
                             lihat Lokasi
                             <i class="fas fa-arrow-right"> </i>
                         </a>

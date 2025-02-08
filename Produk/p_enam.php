@@ -23,7 +23,7 @@
 
     <div class="container">
         <div class="left-column">
-            <h1>Gazelle Hi Black</h1>
+            <h1>Tribune Home Away</h1>
             <p>
                 Mengambil inspirasi dari tahun 1950-an, Gazelle Hi mengambil siluet ikonik dan menanamkannya dengan
                 sentuhan RonShoes® yang berbeda.
@@ -68,10 +68,10 @@
 
         </div>
         <div class="foto-p">
-            <img alt="." height="400" src="../asset/1a.webp" width="600" />
+            <img alt="." height="400" src="../asset/6a.webp" width="600" />
         </div>
         <div class="right-column">
-            <p class="price">IDR 438,000</p>
+            <p class="price">IDR598,000</p>
             <p>SIZE:</p>
             <div class="size-buttons">
                 <button>35</button>

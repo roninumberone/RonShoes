@@ -111,7 +111,6 @@ body {
 }
 .text-section {
   flex: 1;
-  background-color: rgba(255, 255, 255, 0.8);
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -145,15 +144,18 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
-.card {
+.card-index {
   margin-left: 20px;
   cursor: pointer;
+  background-color: #fff;
+  border-radius: 11px;
   transition: all 0.1s;
 }
 .produk-card img {
   border-radius: 10px;
+  margin-bottom: 10px;
 }
-.card:hover {
+.card-index:hover {
   transform: scale(1.1);
 }
 
@@ -363,7 +365,8 @@ body {
   margin-bottom: 40px;
   text-align: center;
 }
-.marketplace-logos {
+.marketplace-logos,
+.detail-toko-of {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -386,13 +389,6 @@ body {
   color: #666666;
   margin-bottom: 40px;
   text-align: center;
-}
-
-.detail-toko-of {
-  max-width: 1200px;
-  margin: 20px auto;
-  display: flex;
-  padding: 10px;
 }
 
 /* footer */
@@ -514,6 +510,9 @@ body {
   }
   .producs {
     margin-top: 15%;
+  }
+  .card-index {
+    margin-bottom: 15px;
   }
   .card {
     flex-direction: column;

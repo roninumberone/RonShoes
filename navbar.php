@@ -18,7 +18,9 @@
 
 <body>
     <nav class="navbar">
-        <img alt="RonShoes logo" src="../asset/logo.png" />
+        <a href="../index.php">
+            <img alt="RonShoes logo" src="../asset/logo.png" />
+        </a>
         <ul>
             <li>
                 <a href="../index.php"> Beranda </a>
@@ -31,9 +33,6 @@
             </li>
             <li>
                 <a href="../toko.php"> Toko </a>
-            </li>
-            <li>
-                <a href="#informasi"> Informasi </a>
             </li>
         </ul>
         <div class="akun">

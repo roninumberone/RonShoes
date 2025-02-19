@@ -205,40 +205,6 @@ body {
   align-items: center;
 }
 
-.title-r {
-  font-size: 28px;
-  color: royalblue;
-  font-weight: 600;
-  letter-spacing: -1px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  padding-left: 30px;
-}
-
-.title-r::before,
-.title-r::after {
-  position: absolute;
-  content: "";
-  height: 16px;
-  width: 16px;
-  border-radius: 50%;
-  left: 0px;
-  background-color: royalblue;
-}
-
-.title-r::before {
-  width: 18px;
-  height: 18px;
-  background-color: royalblue;
-}
-
-.title-r::after {
-  width: 18px;
-  height: 18px;
-  animation: pulse 1s linear infinite;
-}
-
 .message-r,
 .signin {
   color: rgba(88, 87, 87, 0.822);

@@ -78,9 +78,8 @@
                     <div class="card-content">
                         <div class="card-title">SUMATERA</div>
                         <div class="card-description">
-                            <i class="bi bi-geo-alt-fill"></i> Jl. Let. Jend. Suprapto No 361 Pd. Hulu Pasar Gambir
-                            Tebing Tinggi Sumatera Utara 20632,
-                            Sumatera Utara, 20628
+                            <i class="bi bi-geo-alt-fill"></i> Jl.Let.Jend. Suprapto No 361 Pd. Pasar Gambir
+                            Sumatera Utara 20632, Sumatera Utara, 20628
                             <br><i class="bi bi-calendar-check-fill"></i> Senin - Sabtu
                             <br> <i class="bi bi-alarm-fill"></i> 09:00 - 21:00 WIB
                             <br><i class="bi bi-telephone-fill"></i> 6281120008337

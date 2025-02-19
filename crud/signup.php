@@ -25,8 +25,8 @@
     <div class="pem-signin">
         <form class="form-r">
             <div class="logo_container"> <img src="../asset/logo.png" alt="">
-                <p class="title-r">Register </p>
-                <p class="message-r">Signup now and get full access to our web. </p>
+                <p class="title">Register </p>
+                <span class="subtitle">Mulailah dengan web kami, cukup buat akun dan nikmati pengalamannya.</span>
             </div>
 
             <label>

@@ -28,7 +28,7 @@
                     Tahun 2017 Oleh William, Seorang Pemilik Pabrik Sepatu Vulkanisir
                     Sejak Tahun 2000 Di Bandung, Jawa Barat. Internasional.
                 </p>
-                <a class="read-more" href="#"> Selengkapnya </a>
+                <a class="read-more" href="./tentangkami.php"> Selengkapnya </a>
             </div>
             <model-viewer class="tiga-d" src="./asset/shoe.glb" alt="3D model of a shoe" camera-controls></model-viewer>
         </div>
@@ -40,7 +40,7 @@
     <!-- tentang -->
     <div class="container" id="tentang">
         <div class="image-section">
-            <img alt="Building Shoes" src="./asset/produksi.jpg" style="height: 100%" />
+            <img alt="Buat Shoes" src="./asset/produksi.jpeg" style="width: 100%" />
         </div>
         <div class="text-section">
             <h1>Tentang</h1>
@@ -131,9 +131,8 @@
                 <div class="card-content">
                     <div class="card-title">SUMATERA</div>
                     <div class="card-description">
-                        <i class="bi bi-geo-alt-fill"></i> Jl. Let. Jend. Suprapto No 361 Pd. Hulu Pasar Gambir
-                        Tebing Tinggi Sumatera Utara 20632,
-                        Sumatera Utara, 20628
+                        <i class="bi bi-geo-alt-fill"></i> Jl.Let.Jend. Suprapto No 361 Pd. Pasar Gambir
+                        Sumatera Utara 20632, Sumatera Utara, 20628
                         <br><i class="bi bi-calendar-check-fill"></i> Senin - Sabtu
                         <br> <i class="bi bi-alarm-fill"></i> 09:00 - 21:00 WIB
                         <br><i class="bi bi-telephone-fill"></i> 6281120008337

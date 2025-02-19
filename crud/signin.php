@@ -22,8 +22,8 @@
         <form class="form_container">
             <div class="logo_container"> <img src="../asset/logo.png" alt=""> </div>
             <div class="title_container">
-                <p class="title">Login to your Account</p>
-                <span class="subtitle">Get started with our web, just create an account and enjoy the experience.</span>
+                <p class="title">Login</p>
+                <span class="subtitle">Mulailah dengan web kami, cukup buat akun dan nikmati pengalamannya.</span>
             </div>
             <br>
             <div class="input_container">
@@ -37,7 +37,7 @@
                     </path>
                 </svg>
                 <input placeholder="name@mail.com" title="Inpit title" name="input-name" type="text" class="input_field"
-                    id="email_field">
+                    id="email_field" required>
             </div>
             <div class="input_container">
                 <label class="input_label" for="password_field">Password</label>
@@ -53,7 +53,7 @@
                     </path>
                 </svg>
                 <input placeholder="Password" title="Inpit title" name="input-name" type="password" class="input_field"
-                    id="password_field">
+                    id="password_field" required>
             </div>
             <button title="Sign In" type="submit" class="sign-in_btn" onclick="alert('Login Berhasih')">
                 <span>Sign In</span>

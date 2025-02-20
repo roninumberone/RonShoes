@@ -24,11 +24,17 @@
         <div class="image-text-section-tentang">
             <img alt="" src="./asset/kantor.png" />
             <p>
-                Bisnis yang dimulai oleh Adhitya ini dimulai sejak tahun 2015, di mana saat itu ia melihat bahwa ada
+                Bisnis yang dimulai oleh Roni ini dimulai sejak tahun 2017, di mana saat itu ia melihat bahwa ada
                 kebutuhan sekunder berupa sepatu yang sekiranya dapat dijangkau oleh seluruh lapisan masyarakat. Seperti
-                slogan dari Aerostreet “Now everyone can buy a good shoes,” itulah yang menjadi harapan Adhitya bahwa
-                semua masyarakat Indonesia dari kalangan manapun, dapat membeli sepatu berkualitas dengan harga yang
-                terjangkau.
+                RonShoes, Sebuah Brand Sepatu Vulacanized Lokal Diperkenalkan Pada
+                Tahun 2017 Oleh William, Seorang Pemilik Pabrik Sepatu Vulkanisir
+                Sejak Tahun 2000 Di Bandung, Jawa Barat. Internasional. Dengan sumber daya yang berlimpah RonShoes mampu
+                memproduksi sepatu
+                dengan kuantitas besar dan kualitas terbaik sehingga semua kalangan
+                dapat memiliki sepatu berkualitas tinggi dengan harga yang terjangkau. RonShoes memiliki berbagai macam
+                jenis dan model yang cocok di gunakan
+                untuk berbagai jenis kegiatan.
+            </p>
             </p>
         </div>
         <div class="awards-section-tentang">
@@ -50,6 +56,10 @@
 
     <!-- footer -->
     <?php include './footer.php'; ?>
+    <!-- flowise ai -->
+    <?php include './flowise.php'; ?>
+    <!-- script -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
 
 </body>
 

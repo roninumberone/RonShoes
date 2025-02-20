@@ -134,6 +134,10 @@
     </div>
     <!-- footer -->
     <?php include './footer.php'; ?>
+    <!-- flowise ai -->
+    <?php include './flowise.php'; ?>
+    <!-- script -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
 </body>
 
 </html>

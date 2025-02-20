@@ -91,9 +91,9 @@ body {
 }
 
 .hero .tiga-d {
-  width: 90vh;
-  height: 80vh;
   z-index: 99;
+  width: 55em;
+  height: 45em;
 }
 .read-more {
   background-color: #2b6cb0;
@@ -110,7 +110,7 @@ body {
 }
 
 /*home tentang */
-.container {
+.container-t {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -180,7 +180,6 @@ body {
   margin-top: 60px;
   padding-bottom: 70px;
   background-color: #fff;
-  /* height: 70%;  */
 }
 .layanan h1 {
   color: #005b96;
@@ -516,13 +515,13 @@ body {
     font-size: 2em;
   }
   .hero-text p {
-    font-size: 0;
+    font-size: 12px;
   }
   .hero .tiga-d {
     margin-top: 10%;
     max-width: 100%;
   }
-  .container {
+  .container-t {
     flex-direction: column;
   }
   .image-section {
@@ -536,7 +535,7 @@ body {
     height: 50vh;
     max-width: 100%;
   }
-  .container .image-section {
+  .container-t .image-section {
     margin-left: -22.5%;
   }
   .text-section {
@@ -547,6 +546,7 @@ body {
   }
   .text-section p {
     font-size: 16px;
+    margin-bottom: 20px;
   }
   .producs {
     margin-top: 15%;
@@ -580,4 +580,32 @@ body {
 }
 
 @media (max-width: 992px) {
+  .hero .tiga-d {
+    width: 50vh;
+    height: 40vh;
+    z-index: 99;
+  }
+  .hero .hero-pem {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-text p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero .tiga-d {
+    width: 50vh;
+    height: 40vh;
+    z-index: 99;
+    align-items: center;
+  }
+  .hero .hero-pem {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-text p {
+    font-size: 20px;
+  }
 }

@@ -38,9 +38,9 @@
     </section>
 
     <!-- tentang -->
-    <div class="container" id="tentang">
+    <div class="container-t">
         <div class="image-section">
-            <img alt="Buat Shoes" src="./asset/produksi.jpeg" style="width: 100%" />
+            <img alt="Buat Shoes" src="./asset/produksi.jpeg" width: 100%; />
         </div>
         <div class="text-section">
             <h1>Tentang</h1>
@@ -150,6 +150,8 @@
     <?php include './footer.php'; ?>
     <!-- script -->
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <!-- flowise ai -->
+    <?php include './flowise.php'; ?>
 </body>
 
 </html>

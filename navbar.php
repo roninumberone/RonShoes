@@ -40,7 +40,7 @@
                 </li>
                 <li>
                     <div class="akun">
-                        <a href="../crud/signin.php">
+                        <a href="../crud/akun.php">
                             <i class="bi bi-person-circle"></i>
                         </a>
                     </div>
@@ -51,11 +51,11 @@
         </div>
     </nav>
     <script>
-    const menuIcon = document.getElementById("menu-icon-nav");
-    const menulist = document.getElementById("menu-list");
-    menuIcon.addEventListener("click", () => {
-        menulist.classList.toggle("hidden");
-    });
+        const menuIcon = document.getElementById("menu-icon-nav");
+        const menulist = document.getElementById("menu-list");
+        menuIcon.addEventListener("click", () => {
+            menulist.classList.toggle("hidden");
+        });
     </script>
 </body>
 

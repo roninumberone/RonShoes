@@ -7,6 +7,7 @@ if (isset($_POST['signUp'])) {
     $lastName = $_POST['lName'];
     $email = $_POST['email'];
     $password = $_POST['password'];
+    // enskripsi
     $password = md5($password);
 
     $checkEmail = "SELECT * From user where email='$email'";
@@ -17,7 +18,7 @@ if (isset($_POST['signUp'])) {
         $insertQuery = "INSERT INTO user(firstName,lastName,email,password)
                        VALUES ('$firstName','$lastName','$email','$password')";
         if ($conn->query($insertQuery) == TRUE) {
-            header("location: index.php");
+            header("location: akun.php");
         } else {
             echo "Error:" . $conn->error;
         }

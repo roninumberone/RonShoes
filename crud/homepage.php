@@ -1,7 +1,6 @@
 <?php
 session_start();
 include("koneksi.php");
-
 ?>
 
 
@@ -27,7 +26,7 @@ include("koneksi.php");
                     }
                     ?>
         </p>
-        <a href="logout.php">Logout</a>
+        <a href="../index.php">Logout</a>
     </div>
 </body>
 

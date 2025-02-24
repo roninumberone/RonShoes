@@ -157,7 +157,7 @@ include("koneksi.php");
     <!-- script -->
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
     <!-- flowise ai -->
-    <?php include './flowise.php'; ?>
+    <!-- <?php include './flowise.php'; ?> -->
 </body>
 
 </html>
